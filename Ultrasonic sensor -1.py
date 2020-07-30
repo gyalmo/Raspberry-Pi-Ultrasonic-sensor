@@ -1,4 +1,4 @@
-Ultrasonic sensor -1
+#Ultrasonic sensor -1
 
 import RPi.GPIO as GPIO
 import time as t
