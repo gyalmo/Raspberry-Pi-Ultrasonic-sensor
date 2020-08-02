@@ -16,7 +16,7 @@ while True:
    while(GPIO.input(echo)==0):
       starttime = t.time           #total time
    while(GPIO.input(echo)==1):
-      totaltime=stoptime-starttime
+      totaltime=stoptime-starttime   #totaltime=stoptime-starttime 
    distance=(totaltime*34300)/2
    print (distance)
 t.sleep(2)
