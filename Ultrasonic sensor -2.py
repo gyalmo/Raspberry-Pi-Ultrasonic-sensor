@@ -18,3 +18,4 @@ while True:
       totaltime=stoptime-starttime
    distance=(totaltime*34300)/2
    print (distance)
+t.sleep(2)
