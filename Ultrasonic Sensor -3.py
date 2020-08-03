@@ -16,3 +16,14 @@ def USR():
     tt=ft-it
     print (“at the distance of”,tt*34200/2)
 def IR():
+def IR():
+    GPIO.setup(12,GPIO.IN)
+    if(GPIO.input(12)==1):
+        print (“Object Found”)
+        USR()
+    else:
+        print (“Object not Found”)
+GPIO.setmode(GPIO.BCM);
+GPIO.setwarnings(False):
+while (1):
+     IR()
