@@ -1,5 +1,4 @@
 #Ultrasonic Sensor -3
-
 import RPi.GPIO as GPIO
 import time as time
 def USR():
